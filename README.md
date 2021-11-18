@@ -1,17 +1,17 @@
-# PyBer_Analysis
+# PyBer Ridee-Share Analysis
 
 An analysis of ride-share data among different populated region types over the course of several months. 
 
-##Overview of the analysis:
+## Overview of the analysis:
 
 The purpose of this project was to help my theoretical manager "Omar" at my theoretical data analytics position with "Pyber" to analyze rideshare data from January to late April 
 of 2019 and create a chart to be read by our hypothetical CEO "V. Isualize".  Utilizing our knowledge of the Pandas and MatPlotLib modules within python, it was our duty to construct a chart that carefully presented weekly trends for the given rideshare data over 3 distinct regions: Urban, Suburban, and Rural to which we compared how the average  fare of the trip changed week to week.  
 
-##Results:
+## Results:
 
 There was an enormous pool of data to collect from and they covered a wide array of variables depending on the type of location they occured in.  To begin, the total number of drivers and rides was lowest in the rural areas, a mere 125 total rides and 78 drivers, when compared to suburban areas, 625 drives with 490 drivers, and the obvious bustling urban areas having the most, 1625 rides with 2405 drivers.  This is to be expected with the natural density of populations expected to be highest in cities and lowest out in the country.  However, the rural areas saw the highest average fares per driver (~$55) and per ride (~$34) and then descending from there as one went from suburbs to urban areas.  This makes sense considering rural areas typically have desired locations that are more spread out than in a city, the average cost of Pyber ride would naturally increase along with being able to find an available driver which as indicated in the data, there were far fewer.  Despite the average costs being the highest in rural areas, it's combined total fares was only $4327.93 compared to the suburb's $19,356.33 total combined and absolutely dwarfed by urban area's $39,854.38.  This tells us that although the average was indeed more expensive, the sheer number of rides in suburban and especially urban areas completely outweighed the total income out in the country.  According to the line chart we made, per the general trernd of all three regions, fare count was highest in the final weeks of February and lowest in the first week of January though the difference in total fares accumulated was changing the most in urban areas and changing the least in rural aras. 
 
 
-##Summary:
+## Summary:
 
 My first recommendation to Pyber's CEO V.Isualize would be to create a discount on rides across all regions at the start of the new year to increase the total number of drives, hopefully counteracting any loss from the deal by generating a better flow of rides among all the regions.  My 2nd recommendation would be to also create a deal in the first week of March to account for the general dip that noticeably takes place in all regions on that exact week, though I don't know why, to increase profit margins for the company by any means necessary!  Another recommendation would be to attempt to allocate some of the companioes drivers in the Urban areas to the suburban and rural areas if at all possible considering the urban region is the only one where drivers greatly outnumber the total rides being taken.  Hypothetically if you could somehow incentivize these excess drivers into the other regions then maybe the greater driver availability would increase the total drives taken as people in more spread out places wouldn't have to wait so long to get access to ride-share!  Finally, considering the large dip in total fares accumulated in urban areas (which account for most of the total fares among Pyber) in the last week of April, create one more incentivizing variable for riders to choose Pyber over other apps that could create a possible uptick in sales in the Urban areas exclusively as I believe it could save the company thousands of dollars simply addressing the issues other brands might overlook.
